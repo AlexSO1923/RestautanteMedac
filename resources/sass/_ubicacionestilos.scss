@@ -1,0 +1,187 @@
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** HEADER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.ubica_navegador {
+    background-color: #000000;
+}
+
+.ubica_logo_header img {
+    width: 15rem;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+}
+
+.navbar-nav .ubica_letras {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .ubica_letras5 {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .ubica_letras:active,
+.navbar-nav .ubica_letras:hover {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.navbar-nav .ubica_letras5:active,
+.navbar-nav .ubica_letras5:hover {
+    color: #ffffff;
+    background: #ee2525;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** SECTION *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.ubica_titulo_carta {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.ubica_articulo1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: -15rem;
+    font-size: 2rem;
+}
+
+.ubica_texto img {
+    max-width: 40vw;
+}
+
+.ubica_articulo1 .form-control {
+    font-size: 2rem;
+}
+
+.ubica_articulo1 .btn {
+    font-size: 2rem;
+    background: #000000;
+    color: white;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** FOOTER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.ubica_logo_footer {
+    width: 20vw;
+    max-width: 45vw;
+    margin-top: 3rem;
+}
+
+.ubica_redes {
+    padding-top: 4rem;
+}
+
+.ubica_face {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+    -webkit-filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.ubica_insta {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.ubica_texto1 p {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+@media (max-width:800px) {
+    .ubica_logo_footer {
+        width: 70vw;
+        padding-top: 1.5rem;
+    }
+    .ubica_face {
+        height: 13vw;
+        width: 10vw;
+    }
+    .ubica_insta {
+        height: 13vw;
+        width: 10vw;
+    }
+    .ubica_redes {
+        padding-bottom: 1.5rem;
+    }
+    .ubica_texto1 {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+    .ubica_politica {
+        font-size: 1.5rem;
+    }
+    .ubica_articulo1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-left: 0rem;
+        font-size: 1.4rem;
+    }
+    .ubica_texto img {
+        max-width: 85vw;
+        padding-bottom: 1.5rem;
+        padding-left: 3rem;
+    }
+    .ubica_texto .ubica_frame_ubicacion {
+        max-width: 90vw;
+        padding-bottom: 1.5rem;
+        margin-left: 1rem;
+    }
+    body {
+        width: 100vw;
+    }
+}

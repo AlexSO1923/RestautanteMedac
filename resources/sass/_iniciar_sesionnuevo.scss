@@ -1,0 +1,178 @@
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** HEADER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.inicioS_navegador {
+    background-color: #000000;
+}
+
+.inicioS_logo_header img {
+    width: 15rem;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+}
+
+.navbar-nav .inicioS_letras {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .inicioS_letras5 {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .inicioS_letras:active,
+.navbar-nav .inicioS_letras:hover {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.navbar-nav .inicioS_letras5:active,
+.navbar-nav .inicioS_letras5:hover {
+    color: #ffffff;
+    background: #ee2525;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** FORMULARIO *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+.nuevo_cuerpo_form{
+    width: 30vw;
+    // margin-left: 45rem;
+    // margin-top: 5rem;
+    margin: 3.5rem 0 2rem 48rem ;
+    font-size: 2rem
+}
+
+input.form-control.bg-light.input_nuevoini{
+    font-size: 2rem;
+}
+
+button.btn.btn-primary.boton_enviar{
+    margin-top: 1rem;
+    width: 41rem;
+    font-size: 2rem;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** FOOTER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.inicioS_logo_footer {
+    width: 20vw;
+    max-width: 45vw;
+    margin-top: 3rem;
+}
+
+.inicioS_redes {
+    padding-top: 4rem;
+}
+
+.inicioS_face {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+    -webkit-filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.inicioS_insta {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.inicioS_texto1 p {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+@media (max-width:800px) {
+    .inicioS_logo_footer {
+        width: 70vw;
+        padding-top: 1.5rem;
+    }
+    .inicioS_face {
+        height: 13vw;
+        width: 10vw;
+    }
+    .inicioS_insta {
+        height: 13vw;
+        width: 10vw;
+    }
+    .inicioS_redes {
+        padding-bottom: 1.5rem;
+    }
+    .inicioS_texto1 {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+    .inicioS_politica {
+        font-size: 1.5rem;
+    }
+    body {
+        width: 100vw;
+    }
+
+    .nuevo_cuerpo_form{
+        margin-left: 4rem;
+        width: 80vw;
+    }
+    // div.input-group-text.bg-info{
+    //     margin-left: 2rem;
+    // }
+    button.btn.btn-primary.boton_enviar{
+        width: 33rem;
+    }
+    div.pt-1{
+        margin-right: 3rem;
+    }
+}

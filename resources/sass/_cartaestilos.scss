@@ -1,0 +1,199 @@
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** HEADER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.carta_navegador {
+    background-color: #000000;
+}
+
+.carta_logo_header img {
+    width: 15rem;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+}
+
+.navbar-nav .carta_letras {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .carta_letras5 {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .carta_letras:active,
+.navbar-nav .carta_letras:hover {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.navbar-nav .carta_letras5:active,
+.navbar-nav .carta_letras5:hover {
+    color: #ffffff;
+    background: #ee2525;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** SECTION *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.carta_titulo_carta {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.carta_articulo1 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: -15rem;
+    font-size: 1.5rem;
+}
+
+.carta_articulo2 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-left: -15rem;
+    font-size: 1.5rem;
+}
+
+.carta_primero img {
+    max-width: 44vw;
+}
+
+.carta_segundo img {
+    max-width: 44vw;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** FOOTER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.carta_logo_footer {
+    width: 20vw;
+    max-width: 45vw;
+    margin-top: 3rem;
+}
+
+.carta_redes {
+    padding-top: 4rem;
+}
+
+.carta_face {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+    -webkit-filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.carta_insta {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.carta_texto1 p {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+@media (max-width:800px) {
+    .carta1 img{
+        margin-left: 2rem;
+    }
+
+    .carta2 p{
+        margin-left: 4rem;
+    }
+    .carta_logo_footer {
+        width: 70vw;
+        padding-top: 1.5rem;
+    }
+    .carta_face {
+        height: 13vw;
+        width: 10vw;
+    }
+    .carta_insta {
+        height: 13vw;
+        width: 10vw;
+    }
+    .carta_redes {
+        padding-bottom: 1.5rem;
+    }
+    .carta_texto1 {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+    .carta_politica {
+        font-size: 1.5rem;
+    }
+    .carta_articulo1 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-left: 0rem;
+        font-size: 1.4rem;
+    }
+    .carta_articulo2 {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-left: 0rem;
+        font-size: 1.4rem;
+    }
+    .carta_primero img {
+        max-width: 85vw;
+        padding-bottom: 1.5rem;
+    }
+    .carta_segundo img {
+        max-width: 85vw;
+        padding-bottom: 1.5rem;
+    }
+    body {
+        width: 100vw;
+    }
+}

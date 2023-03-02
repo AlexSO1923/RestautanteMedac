@@ -1,0 +1,183 @@
+.cuerpodefinitivo {
+    background: url(../../public/img/tonos-azules-fondo-acuarela_91008-275.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    // width: 100vw;
+    // height: 100vh;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** HEADER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.lista_navegador {
+    background-color: #000000;
+    width: 2rem;
+}
+
+.lista_logo_header img {
+    width: 15rem;
+}
+
+.navbar-nav {
+    font-size: 2rem;
+}
+
+.navbar-nav .lista_letras {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .lista_letras5 {
+    margin-right: 1rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    padding: 0.7rem 1.3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar-nav .lista_letras:active,
+.navbar-nav .lista_letras:hover {
+    color: #000000;
+    background: #ffffff;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+.navbar-nav .lista_letras5:active,
+.navbar-nav .lista_letras5:hover {
+    color: #ffffff;
+    background: #ee2525;
+    border-radius: 2rem;
+    transition: .5s;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** SECTION *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.table {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.titulo_lista {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.table .boton_eliminar {
+    font-size: 2rem;
+}
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/******************************************** FOOTER *********************************************************** */
+
+
+/**************************************************************************************************************** */
+
+
+/**************************************************************************************************************** */
+
+.reserva4_logo_footer {
+    width: 20vw;
+    max-width: 45vw;
+    margin-top: 3rem;
+}
+
+.reserva4_redes {
+    padding-top: 4rem;
+}
+
+.reserva4_face {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+    -webkit-filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.reserva4_insta {
+    height: 3vw;
+    width: 3vw;
+    filter: invert(97%) sepia(1%) saturate(1224%) hue-rotate(170deg) brightness(103%) contrast(94%);
+}
+
+.reserva4_texto1 p {
+    padding-top: 1rem;
+    font-size: 1.7rem;
+}
+
+@media (max-width:800px) {
+    .reserva4_logo_footer {
+        width: 70vw;
+        padding-top: 1.5rem;
+    }
+    .reserva4_face {
+        height: 13vw;
+        width: 10vw;
+    }
+    .reserva4_insta {
+        height: 13vw;
+        width: 10vw;
+    }
+    .reserva4_redes {
+        padding-bottom: 1.5rem;
+    }
+    .reserva4_texto1 {
+        font-size: 1.7rem;
+        padding-top: 2rem;
+    }
+    .reserva4_politica {
+        font-size: 1.5rem;
+    }
+    .reserva4_leyenda2 {
+        margin-left: 15rem;
+    }
+    .reserva4_seguimiento2 {
+        margin-left: 0;
+    }
+    .reserva4_seguimiento3 {
+        margin-left: 0;
+    }
+    .reserva4_seguimiento4 {
+        margin-left: 0;
+    }
+    .reserva4_confirmacion .reserva4_icono_confimaction {
+        height: 15rem;
+        width: 15rem;
+        margin: 3rem 0 2rem 12rem;
+    }
+}
